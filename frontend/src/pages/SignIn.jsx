@@ -42,8 +42,9 @@ const handleSignIn=async ()=>{
 <div className='w-full lg:w-[50%] h-full bg-white flex flex-col items-center justify-center p-[10px] gap-[20px]'>
 
 <div className='flex gap-[10px] items-center text-[20px] font-semibold mt-[40px]'>
-    <span>Sign In to </span>
-    <img src={logo} alt="" className='w-[70px]'/>
+     <span>Sign Up to <span className='text-amber-950 text-4xl'>socialSnap</span> </span>
+
+    
 </div>
 
 
@@ -67,9 +68,9 @@ const handleSignIn=async ()=>{
 <p className='cursor-pointer text-gray-800' onClick={()=>navigate("/signup")}>Want To Create A New Account ? <span className='border-b-2 border-b-black pb-[3px] text-black'>Sign Up</span></p>
 </div>
 <div className='md:w-[50%] h-full hidden lg:flex justify-center items-center bg-[#000000] flex-col gap-[10px] text-white text-[16px] font-semibold rounded-l-[30px] shadow-2xl shadow-black'>
-
-<img src={logo1} alt="" className='w-[40%]'/>
-<p >Not Just A Platform , It's A VYBE</p>
+<p className='text-4xl'>socialSnap</p>
+ 
+<p >Not Just A Platform , It's A socialSnap</p>
 </div>
       </div>
     </div>
