@@ -16,7 +16,7 @@ function Feed() {
     <div className='lg:w-[50%] w-full bg-black min-h-[100vh]   lg:h-[100vh] relative lg:overflow-y-auto '>
         <div className='w-full h-[100px] flex items-center justify-between p-[20px] lg:hidden'>
          
-     <span className="text-amber-950 text-4xl font-extrabold z-50">socialSnap</span>
+     <span className="text-amber-950 text-4xl font-extrabold z-50">PostSnap</span>
 
 
               <div className='flex items-center gap-[10px]'>

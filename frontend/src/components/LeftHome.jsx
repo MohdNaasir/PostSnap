@@ -28,7 +28,7 @@ const {notificationData}=useSelector(state=>state.user)
     <div className={`w-[25%] hidden lg:block h-[100vh] bg-[black] border-r-2 border-gray-900  ${showNotification?"overflow-hidden":"overflow-auto"}`}>
       <div className='w-full h-[100px] flex items-center justify-between p-[20px]'>
       
-     <span className="text-amber-950 text-4xl font-extrabold z-50">socialSnap</span>
+     <span className="text-amber-950 text-4xl font-extrabold z-50">PostSnap</span>
 
 
         <div className='relative z-[100]' onClick={()=>setShowNotification(prev=>!prev)}>
